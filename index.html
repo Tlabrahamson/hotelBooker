@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet"> 
+
+    <title>HotelBooker</title>
+</head>
+<body>
+    <div class="imgContainer">
+        <header class="header">Hotel Booker</header>
+        <div class="imgs fade">
+            <img src="img/img1.jpg" style="width: 100%"/>
+        </div>
+
+        <div class="imgs fade">
+                <img src="img/img2.jpg" style="width: 100%"/>
+        </div>
+
+        <div class="imgs fade">
+                <img src="img/img3.jpg" style="width: 100%"/>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="leftSide">
+                <input id="firstName" class="inputs" type="text" placeholder="First Name">
+                <input id="lastName" class="inputs" type="text" placeholder="Last Name">
+                <select id="selector" class="inputs" name="Hotels">
+                    <option value="Hotel Birmingham">Hotel Birmingham</option>
+                    <option value="Embassy Suites">Embassy Suites</option>
+                    <option value="Days Inn">Days Inn</option>
+                </select>
+                <input id="numRooms" class="inputs" type="number" placeholder="No. of Rooms">
+                <button id="checkButt">Check Availability</button>
+        </div>
+
+        <div id="rightSide">
+            <h1 id="hotelName">Please Select a Hotel</h1>
+            <h2>Hotel Currently Has</h2>
+            <h1 id="roomsAmount">Enter Number of Rooms</h1>
+            <h3>Rooms Available</h3>
+            <h2 id="myGuest">Valued</h2>
+            <h2 id="myGuestName">Guest</h2>
+            <h3>Pool | Gym | Business Center </h3>
+        </div>
+    </div>  
+
+    <script src="js/index.js"></script>
+</body>
+</html>
